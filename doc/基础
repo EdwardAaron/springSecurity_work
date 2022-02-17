@@ -1,0 +1,10 @@
+1 添加了spring-boot-starter-security 依赖之后，应用程序会自动保护所有的url，
+    访问时需要用到默认用户user和默认密码ea7e6eb7-b684-4fc1-8c4d-bc14bf9b3ca2(从控制台查到，每次启动都会变化)
+2 springSecurity 本质上是一个过滤链
+    例如
+        FilterSecurityInterceptor :最后一个过滤器
+        ExceptionTranslationFilter:
+        UsernamePasswordAuthenticationFilter:拦截/login请求，验证用户名、密码
+3 如果不使用springBoot ，需要配置DelegatingFilterProxy
+4 开发中涉及的接口
+    UserDetailsService
