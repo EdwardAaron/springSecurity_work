@@ -1,1 +1,2 @@
-在配置类中添加用户名和密码
+在配置类中添加用户名和密码。
+自定义和springSecurity的详细，参考helloWorld_mybatisPlus

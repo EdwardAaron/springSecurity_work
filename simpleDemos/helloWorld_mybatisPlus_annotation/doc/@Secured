@@ -1,0 +1,4 @@
+@Secured("ROLE_admin","addPerson")
+    :1 该注解用在方法上
+     2 如果用户还没登录，则会跳转到登录界面
+     3 只有ROLE_admin角色或addPerson的用户才能访问此方法
