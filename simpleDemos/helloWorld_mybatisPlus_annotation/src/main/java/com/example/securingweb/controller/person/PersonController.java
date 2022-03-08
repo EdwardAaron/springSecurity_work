@@ -19,4 +19,8 @@ public class PersonController {
     public Person getPerson(@PathVariable Integer id) {
         return personService.getPerson(id);
     }
+    @GetMapping("/save")
+    public String savePerson() {
+        return personService.savePerson();
+    }
 }

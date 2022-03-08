@@ -1,0 +1,2 @@
+csrf:跨站请求伪造
+ spring 只会保护 PATCH PUT POST DELETE 请求
