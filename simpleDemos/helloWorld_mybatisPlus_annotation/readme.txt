@@ -5,7 +5,7 @@
 5 模板 thymleaf
 6 测试地址
     需要admin权限 @PreAuthorize  http://localhost:8003/person/save
-        需要admin权限 @Secured  http://localhost:8003/person/1
+    需要admin权限 @Secured  http://localhost:8003/person/1
     不需要登录 http://localhost:8003/index
     不要角色或权限，但是要登录 http://localhost:8003/admin
     需要角色admin http://localhost:8003/admin/manage

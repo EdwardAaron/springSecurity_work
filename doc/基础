@@ -8,3 +8,5 @@
 3 如果不使用springBoot ，需要配置DelegatingFilterProxy
 4 开发中涉及的接口
     UserDetailsService
+
+5 在static中的文件不会被认证
